@@ -1,0 +1,170 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    max-height: 50px;
+}
+
+nav .logo a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .menu ul li:last-child {
+    margin-right: 0;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+section img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.kolom {
+    margin-top: 20px;
+}
+
+/* Gaya Tombol "See More" */
+.tbl-pink, .tbl-biru {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tbl-pink:hover, .tbl-biru:hover {
+    background-color: #ff1493;
+}
+
+/* Gaya School Partners */
+.tutor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Partners {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Partners img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.Partners p {
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer-section {
+    text-align: left;
+    padding: 20px;
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff69b4; 
+}
+
+.footer-section p {
+    font-size: 1em;
+    color: #ccc; 
+}
+
+
+.footer-section a {
+    color: #fff; 
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px 0;
+    }
+
+    nav .logo {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav .menu ul {
+        text-align: center;
+    }
+
+    nav .menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
